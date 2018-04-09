@@ -117,3 +117,56 @@ exports.helloGET = (req, res) =>
        // ws.cell(1,1).number(120).style(style);
        // ws.cell(2,1).number(123).style(style);
        // wb.write('/tmp/sampe.xlsx'); 
+
+
+/*
+        wb.writeToBuffer().then((buffer) => {
+
+            // send mail here using nodemailer
+
+            return 1;
+        }).catch(function(error) {
+            console.log(error);
+
+        }); 
+       */
+        
+                    /*if(i == 0){
+                        ws.cell(i+1,j+2).date(emp[i].dlist[j].date).style; 
+                        console.log("Inside - > ", emp[i].dlist[j].date)
+                    }*/
+    //res.download('/tmp/sampe.xlsx');
+
+//console.log("Lunch time -> ",(doc.data().lunchInTime - doc.data().lunchOutTime));
+                //console.log("Overall time -> ",(doc.data().signOutTime - doc.data().signInTime));
+// Intead of foreach
+/*var arrayDocs = snapshot.docs.map(docData => docData.data())
+            console.log(arrayDocs);
+            //res.send(arrayDocs);
+            //var len = snapshot.docs.length;
+            //console.log(len);*/
+
+ //***********************************Sort function************************************************
+
+    /*objs.sort(function(a,b) {return (a.last_nom > b.last_nom) ? 1 : ((b.last_nom > a.last_nom) ? -1 : 0);} );
+    function compare(a,b) {
+        if (a.last_nom < b.last_nom)
+          return -1;
+        if (a.last_nom > b.last_nom)
+          return 1;
+        return 0;
+      }*/
+    //************************************************************************************************
+            
+/*writeStream.write(header);
+    var writeStream = fs.createWriteStream("/tmp/sampe.xls");
+            var header="Date"+"\n";
+//writeStream.write(doc.data().empID);
+            writeStream.close();
+*/
+
+// ws.cell(1,2).string(doc.id);
+       // ws.cell(1,3).number(100).style(style);      
+       // ws.cell(1,1).number(120).style(style);
+       // ws.cell(2,1).number(123).style(style);
+       // wb.write('/tmp/sampe.xlsx');
